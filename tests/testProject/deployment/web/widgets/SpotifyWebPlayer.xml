@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.spotifywebplayer.SpotifyWebPlayer" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Spotify Web Player</name>
+    <description>Crafting day spotify web player</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="Data source">
+            <property key="token" type="attribute" required="true">
+                <caption>Token attribute (path)</caption>
+                <description>Configure the String attribute that contains the token</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+            <property key="uri" type="attribute" required="true">
+                <caption>Uri attribute (path)</caption>
+                <description>Configure the String attribute that contains the URI of your song</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>

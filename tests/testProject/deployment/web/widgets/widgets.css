@@ -1,0 +1,9 @@
+/*
+Place your custom CSS here
+*/
+.widget-hello-world {
+
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy91aS9TcG90aWZ5V2ViUGxheWVyLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Q0FFQztBQUNEOztBQUVBIiwiZmlsZSI6IlNwb3RpZnlXZWJQbGF5ZXIuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLypcblBsYWNlIHlvdXIgY3VzdG9tIENTUyBoZXJlXG4qL1xuLndpZGdldC1oZWxsby13b3JsZCB7XG5cbn1cbiJdfQ==*/
+.navbar-brand .widget-language-selector .current-language-text,.navbar-brand .widget-language-selector .language-arrow{color:#fff}.navbar-brand .widget-language-selector .current-language-text .arrow-image,.navbar-brand .widget-language-selector .language-arrow .arrow-image{filter:invert(1)}.widget-language-selector .popupmenu-trigger{align-items:center;display:flex}.widget-language-selector .language-arrow{display:inline-flex;transition:transform .2s ease-in-out 50ms}.widget-language-selector .language-arrow .arrow-image{background-image:url(com/mendix/widget/web/languageselector/assets/arrow_black.svg);background-repeat:no-repeat;height:14px!important;margin-top:2px;width:14px}.widget-language-selector .language-arrow .arrow-image.arrow-up{transform:rotate(180deg)}.widget-language-selector .current-language-text{font-size:14px;margin-right:6px}.widget-language-selector .popupmenu-menu{background:#f8f8f8}.widget-language-selector .popupmenu-menu .popupmenu-basic-item.active{font-weight:600}.widget-language-selector .popupmenu-menu .popupmenu-basic-item:hover{background:#fff}

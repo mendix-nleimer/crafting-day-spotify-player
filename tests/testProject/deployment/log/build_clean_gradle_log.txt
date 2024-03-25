@@ -1,0 +1,45 @@
+Initialized native services in: C:\Users\Nikolas.Leimer\.gradle\native
+Initialized jansi services in: C:\Users\Nikolas.Leimer\.gradle\native
+Received JVM installation metadata from 'C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot': {JAVA_HOME=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot, JAVA_VERSION=11.0.3, JAVA_VENDOR=AdoptOpenJDK, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.3+7, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.3+7, VM_VENDOR=AdoptOpenJDK, OS_ARCH=amd64}
+Removing 0 daemon stop events from registry
+Starting a Gradle Daemon (subsequent builds will be faster)
+Starting process 'Gradle build daemon'. Working directory: C:\Users\Nikolas.Leimer\.gradle\daemon\7.6 Command: C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot\bin\java.exe --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=windows-1252 -Duser.country=DE -Duser.language=de -Duser.variant -cp C:\Program Files\Mendix\gradle-7.6\lib\gradle-launcher-7.6.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 7.6
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 2.452 secs.
+The client will now receive all logging from the daemon (pid: 50732). The daemon log file: C:\Users\Nikolas.Leimer\.gradle\daemon\7.6\daemon-50732.out.log
+Starting build in new daemon [memory: 512 MiB]
+Using 16 worker leases.
+Received JVM installation metadata from 'C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot': {JAVA_HOME=C:\Program Files\AdoptOpenJDK\jdk-11.0.3.7-hotspot, JAVA_VERSION=11.0.3, JAVA_VENDOR=AdoptOpenJDK, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.3+7, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.3+7, VM_VENDOR=AdoptOpenJDK, OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [C:\Users\Nikolas.Leimer\Documents\CustomWidgets\helloWorld\tests\testProject\deployment] as hierarchies to watch
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\Nikolas.Leimer\Documents\CustomWidgets\helloWorld\tests\testProject\deployment\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\Nikolas.Leimer\Documents\CustomWidgets\helloWorld\tests\testProject\deployment\build.gradle'.
+Included projects: [root project 'deployment']
+
+> Configure project :
+Evaluating root project 'deployment' using build file 'C:\Users\Nikolas.Leimer\Documents\CustomWidgets\helloWorld\tests\testProject\deployment\build.gradle'.
+Compiling script 'C:\Users\Nikolas.Leimer\Documents\CustomWidgets\helloWorld\tests\testProject\deployment\variables.gradle' using SubsetScriptTransformer.
+Compiling script 'C:\Users\Nikolas.Leimer\Documents\CustomWidgets\helloWorld\tests\testProject\deployment\variables.gradle' using BuildScriptTransformer.
+All projects evaluated.
+Task name matched 'clean'
+Selected primary task 'clean' from project :
+Tasks to be executed: [task ':clean']
+Tasks that were excluded: []
+Resolve mutations for :clean (Thread[Execution worker,5,main]) started.
+destroyer locations for task group 0 (Thread[included builds,5,main]) started.
+:clean (Thread[Execution worker,5,main]) started.
+
+> Task :clean UP-TO-DATE
+Caching disabled for task ':clean' because:
+  Build cache is disabled
+Task ':clean' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+
+BUILD SUCCESSFUL in 8s
+1 actionable task: 1 up-to-date
+Watched directory hierarchies: []
+
+
+
